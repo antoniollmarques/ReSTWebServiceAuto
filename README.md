@@ -1,0 +1,2 @@
+# ReSTWebServiceAuto
+restTests
