@@ -38,7 +38,7 @@ words, The word that we try to find(for each page) when doing a HTTP GET(e.g. fo
 maxItems, the maximum of items per page that will be verified.
 
 'pages', 'itemsPerPage' and 'words' parameters were created since web service structure could be changed (or we can use this framework to test another similar web service).
-'words', this was the implemented solution with the time constraints. It is not the best approach to check HTTP GET response messages.
+'words', this was the implemented solution with the time constraints. It is not the best approach to check response messages.
 
 
 - TestHash
