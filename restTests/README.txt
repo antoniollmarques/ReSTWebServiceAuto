@@ -30,11 +30,12 @@ Two methods that check if response codes and response messages are the expected 
 
 Reads config.properties file located in resources folder.
 
-config.properties file has 4 parameters:
+config.properties file has 5 parameters:
 webService, Configuration of the ReST Web Service that we are testing.
 pages, All web service pages separated by comma(e.g. page1,page10,page20).
 itemsPerPage, The number of items of previous pages(e.g. 10,20,500, it means that page1 has 10 items, page10 20 items and page20 500 items)
 words, The word that we try to find(for each page) when doing a HTTP GET(e.g. following the example above).
+maxItems, the maximum of items per page that will be verified.
 
 'pages', 'itemsPerPage' and 'words' parameters were created since web service structure could be changed (or we can use this framework to test another similar web service).
 'words', this was the implemented solution with the time constraints. It is not the best approach to check HTTP GET response messages.
